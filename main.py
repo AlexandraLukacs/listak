@@ -1,0 +1,35 @@
+szam_lista=[12, 23, -56, 82, 12.23, 69, -100]
+szoveg_lista=["Alma", "Körte", "Szilva", "Szőlő", "alma"]
+import feladatok
+import szoveglistak
+
+feladatok.kiiras(szam_lista)
+print()
+p=feladatok.pozitiv(szam_lista)
+print(f"A pozitív számok összeg: {p}")
+print()
+n=feladatok.negativ(szam_lista)
+print(f"A negatív számok száma: {n}")
+print()
+nesz=feladatok.nemegeszszam(szam_lista)
+print(f"A nem egész számok száma: {nesz}")
+print()
+a=feladatok.atlag(szam_lista)
+print(f"Átlag: {a}")
+print()
+ma=feladatok.max(szam_lista)
+print(f"Legnagyobb szám: {ma}")
+print()
+mi=feladatok.min(szam_lista)
+print(f"Legkisebb szám: {mi}")
+print()
+k=feladatok.kulonbseg(szam_lista)
+print(f"Max és min különbsége: {k}")
+print()
+
+al=szoveglistak.alma(szoveg_lista)
+print(f"Ennyi Alma/alma van: {al}")
+print()
+s=szoveglistak.sz(szoveg_lista)
+print(f"Sz betűvel kezdődő szavak száma: {s}")
+print()
